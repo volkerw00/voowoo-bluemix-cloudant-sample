@@ -1,0 +1,11 @@
+applications:
+- services:
+  - cloundant-tester-cloudantNoSQLDB
+  - cloundant-tester-MonitoringAndAnalytics
+  disk_quota: 1024M
+  host: cloundant-tester
+  name: cloundant-tester
+  path: JavaCloudantApp.war
+  domain: eu-gb.mybluemix.net
+  instances: 1
+  memory: 512M
